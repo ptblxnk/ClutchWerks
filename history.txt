@@ -2,6 +2,20 @@
             HISTORY                  
 ============================
 
+V3:  (12/1/2020)
+    CAR SECTION:
+        -   ALIGN LIST ITEMS (CAR DETAILS)
+        -   IMGS REZISED
+        -   BOX-SHADOW HOVER EFFECT ON BOTH CAR IMGS
+        -   REMOVED "DRIVE BOTH" TEXT
+
+    PRICING SECTION:
+        -   REARRANGED BOTH <p> TAGS
+        -   HOVER EFFECT:
+                        1. ADDS SLIGHTLY TRANSPARENT DARK BACKGROUND
+                        2. BLUR EFFECT
+        -   REMOVED "ADD TO CART" BUTTON
+---------------------------------------------------------------------------------------------------------------------------
 V2: ADDED BACKGROUND GIFS & CAR DETAILS (11/30/2020)
 ---------------------------------------------------------------------------------------------------------------------------
 V1: INITIAL (11/30/2020) 
