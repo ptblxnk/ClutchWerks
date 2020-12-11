@@ -1,0 +1,149 @@
+*, *::before, *::after {
+    
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+section{
+    border-bottom: .125rem rgba(0, 0, 0, 0.2) solid;
+    /* replace border-botton with "<hr>" ???*/
+    text-align: center;
+}
+
+section.first {
+    margin-top: 2.5em;
+    color: rgba(255, 255, 255, 0.8);
+
+
+}
+
+#headingGroup h1 {
+    /* color: #ffffff;
+    font-size: 4rem; */
+    width: 100%;
+}
+
+#mainNavbar .nav-link {
+    color: #000000;
+}
+
+#mainNavbar .nav-link:hover {
+    color: red;
+}
+
+#mainNavbar .navbar-brand {
+    color: #000000;
+}
+
+.navbar.scrolled {
+    background-color:white;
+    /* transition: background 500ms; */
+}
+
+img {
+    width: 100%;
+}
+
+
+/* img:hover {
+    Plays gif when hovering
+    width: 100%;
+    opacity: 0;
+    background-image: url("x_PRT4LI0/20_DOM/10_V1/20_imgs/LS_1.gif");
+}  */
+
+p {
+    text-align: center;
+    width: 100%;
+
+}
+
+p#press {
+    text-align: center;
+    width: 100%;
+}
+p#solo {
+    margin-top: 1rem;
+}
+.car-content {
+    width: 100%;
+}
+.home-content {
+    width: 100%;
+
+}
+
+div.pk li {
+    list-style: none;
+}
+
+.gif {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-image: url("LS_1.gif");
+    
+    background-size: cover;
+    background-repeat: none;
+    height: 40.5em;
+}
+
+.gif2 {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #fff;
+    color: black; */
+    background-image: url("SLECA2.gif");
+    color: rgba(255, 255, 255, 0.8);
+
+    background-size: cover;
+    background-repeat: none;
+    height: 40.5em;
+
+}
+
+.gif3 {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-image: url("250LM.gif");
+    background-size: cover;
+    background-repeat: none;
+    height: 40.5em;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.cars {
+    margin-right: 20em;
+}
+/* iframe {
+    width: 520px;
+    height: 293px;
+} */
+
+/* 
+@media only screen and (max-width: 700px) {
+    section.first {
+        margin-top: 2.5em;
+        background-image: url("/Users/scuba/Documents/40_Projects/50_Websites/20_Custom/x_PRT4LI0/20_DOM/10_V1/20_imgs/LS_1.gif");
+        background-size: cover;
+        background-repeat: none;
+        width: 560px;
+    
+    }
+} */
+
+@media only screen and (max-width: 700px) {
+    .cars {
+        margin-right: 0;
+    }
+
+}
+
+body, html {
+    overflow-x: hidden;
+}

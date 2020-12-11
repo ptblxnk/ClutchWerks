@@ -16,8 +16,6 @@ section{
 section.first {
     margin-top: 2.5em;
     color: rgba(255, 255, 255, 0.8);
-
-
 }
 
 #headingGroup h1 {
@@ -43,11 +41,32 @@ section.first {
     /* transition: background 500ms; */
 }
 
+li.nav-item{
+    font-style: normal;
+    font-size: 1em;
+}
+
 img {
     width: 100%;
 }
 
+button.car-button {
+    margin-top: 25rem;
+    border-radius: 0.25em;
+    border: none;
 
+}
+button.car-button:focus {
+    border: none;
+    outline: none;
+
+}
+
+button.car-button:hover {
+    background-color: #000000;
+    color: #ffff;
+
+}
 /* img:hover {
     Plays gif when hovering
     width: 100%;
@@ -65,8 +84,17 @@ p#press {
     text-align: center;
     width: 100%;
 }
-p#solo {
-    margin-top: 1rem;
+p.solo {
+    margin: 0rem 0 1rem;
+    transform: translateY(50%);
+}
+h6.price {
+    font-style: italic;
+    font-size: .8em;
+    padding: 0;
+    margin: 0;
+
+
 }
 .car-content {
     width: 100%;
@@ -78,31 +106,51 @@ p#solo {
 
 div.pk li {
     list-style: none;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
 }
 
+div.pk {
+    padding: 0 7rem 0;
+}
+
+.a2c {
+padding: 0;
+text-align: center;
+
+
+}
+
+.a2c:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 1rem;
+    filter: blur(2px);
+    
+    /* *PERFECT FOR DOM MANIPULATION---- IMPLEMENT ADD TO CART FUNCTION VIA HOVER* */
+}
 .gif {
     text-align: center;
     align-items: center;
     justify-content: center;
     background-image: url("LS_1.gif");
-    
     background-size: cover;
     background-repeat: none;
-    height: 40.5em;
+    height: 42.3em;
 }
 
 .gif2 {
     text-align: center;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
     /* background-color: #fff;
     color: black; */
     background-image: url("SLECA2.gif");
     color: rgba(255, 255, 255, 0.8);
-
     background-size: cover;
     background-repeat: none;
-    height: 40.5em;
+    height: 42.3em;
+    
 
 }
 
@@ -113,12 +161,106 @@ div.pk li {
     background-image: url("250LM.gif");
     background-size: cover;
     background-repeat: none;
-    height: 40.5em;
+    height: 42.3em;
     color: rgba(255, 255, 255, 0.8);
 }
 
-.cars {
-    margin-right: 20em;
+.car1 {
+    margin-right: 10em;
+    /* margin: 0; */
+    padding: 0;
+    display: inline;
+    transform: translateY(-4rem);
+}
+.car2 {
+    margin-left: 10em;
+    /* margin: 0; */
+    padding: 0;
+    display: inline;
+    transform: translateY(-4rem);
+}
+.center {
+    justify-content: center;
+    align-content: center;
+    text-align: left;
+    display: flex;
+    margin-top: 0.5em;
+}
+
+
+div.list{
+    margin-right: 0;
+    font-size: 14px;
+    padding: 0;
+    display: inline;
+
+}
+
+div.list2{
+    margin: 0;
+    padding: 0;
+
+}
+.column1 {
+    float: left;
+    padding: 0;
+    /* margin-right: 3rem; */
+}
+
+.column2 {
+    float: left;
+    padding: 0;
+    right: 0;
+
+}
+.priceC {
+    padding-top: 0;
+    /* transform: translateY(50%); */
+    color: white;
+    position: absolute;
+    /* bottom: 15%; */
+    justify-content: center;
+}
+
+/* ul {
+    padding-left: 1rem;
+} */
+
+ul.i1 {
+    padding-left: 1rem;
+}
+ul.i2 {
+    padding-left: 1rem;
+}
+
+.ulP {
+    padding: 0;
+}
+
+li {
+    font-size: 12px;
+    list-style: none;
+    font-style: italic;
+}
+
+
+span.bold {
+    font-weight: bold;
+    font-size: 13px;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+img.car1-dec {
+    /* border: 1rem rgba(117, 117, 117, 0.7) solid; */
+    border-radius: 0.75rem;
+    box-shadow: 0 0 5px black;
+    
+}
+
+img.car1-dec:hover {
+    box-shadow: 0 0 5px white;
+    
 }
 /* iframe {
     width: 520px;
@@ -146,4 +288,15 @@ div.pk li {
 
 body, html {
     overflow-x: hidden;
+    animation: fadeInBody ease-in 1s;
+    
+}
+
+@keyframes fadeInBody { 
+    0% {
+        opacity: 0;
+    }
+    100% {
+    opacity: 1;
+    }
 }
