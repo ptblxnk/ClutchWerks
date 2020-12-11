@@ -1,0 +1,95 @@
+*, *::before, *::after {
+    
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+section{
+    border-bottom: .125rem rgba(0, 0, 0, 0.2) solid;
+    /* replace border-botton with "<hr>" ???*/
+    text-align: center;
+}
+
+section.first {
+    margin-top: 2.5em;
+}
+
+#headingGroup h1 {
+    /* color: #ffffff;
+    font-size: 4rem; */
+    width: 100%;
+}
+
+#mainNavbar .nav-link {
+    color: #000000;
+}
+
+#mainNavbar .nav-link:hover {
+    color: red;
+}
+
+#mainNavbar .navbar-brand {
+    color: #000000;
+}
+
+.navbar.scrolled {
+    background-color:white;
+    /* transition: background 500ms; */
+}
+
+img {
+    width: 100%;
+}
+
+
+/* img:hover {
+    Plays gif when hovering
+    width: 100%;
+    opacity: 0;
+    background-image: url("x_PRT4LI0/20_DOM/10_V1/20_imgs/LS_1.gif");
+}  */
+
+p {
+    text-align: center;
+    width: 100%;
+}
+
+p#press {
+    text-align: center;
+    width: 100%;
+}
+p#solo {
+    margin-top: 1rem;
+}
+.car-content {
+    width: 100%;
+}
+.home-content {
+    width: 100%;
+
+}
+
+div.pk li {
+    list-style: none;
+}
+
+.gif {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+iframe {
+    width: 520px;
+    height: 293px;
+}
+
+@media only screen and (max-width: 600px) {
+    iframe {
+        width: auto;
+        height: auto;
+    }
+}
