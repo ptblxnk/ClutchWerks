@@ -15,6 +15,9 @@ section{
 
 section.first {
     margin-top: 2.5em;
+    color: rgba(255, 255, 255, 0.8);
+
+
 }
 
 #headingGroup h1 {
@@ -55,6 +58,7 @@ img {
 p {
     text-align: center;
     width: 100%;
+
 }
 
 p#press {
@@ -80,16 +84,66 @@ div.pk li {
     text-align: center;
     align-items: center;
     justify-content: center;
+    background-image: url("LS_1.gif");
+    
+    background-size: cover;
+    background-repeat: none;
+    height: 40.5em;
 }
 
-iframe {
+.gif2 {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #fff;
+    color: black; */
+    background-image: url("SLECA2.gif");
+    color: rgba(255, 255, 255, 0.8);
+
+    background-size: cover;
+    background-repeat: none;
+    height: 40.5em;
+
+}
+
+.gif3 {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-image: url("250LM.gif");
+    background-size: cover;
+    background-repeat: none;
+    height: 40.5em;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.cars {
+    margin-right: 20em;
+}
+/* iframe {
     width: 520px;
     height: 293px;
+} */
+
+/* 
+@media only screen and (max-width: 700px) {
+    section.first {
+        margin-top: 2.5em;
+        background-image: url("/Users/scuba/Documents/40_Projects/50_Websites/20_Custom/x_PRT4LI0/20_DOM/10_V1/20_imgs/LS_1.gif");
+        background-size: cover;
+        background-repeat: none;
+        width: 560px;
+    
+    }
+} */
+
+@media only screen and (max-width: 700px) {
+    .cars {
+        margin-right: 0;
+    }
+
 }
 
-@media only screen and (max-width: 600px) {
-    iframe {
-        width: auto;
-        height: auto;
-    }
+body, html {
+    overflow-x: hidden;
 }
