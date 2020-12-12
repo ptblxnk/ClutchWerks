@@ -2,13 +2,6 @@
             HISTORY                  
 ============================
 
-V6:  (12/5/2020)
-    NAVBAR SECTION:
-        -   NOW CUSTOM "CLUTCHWERKS" BLACK LOGO REDIRECTS TO HOME PAGE INSTEAD OF GETTING "ADDED TO CART MESSAGE"
-
-    CAR SECTION:
-        -   ADDED JQERY/CSS FOR MOUSEOVER, MOUSEOUT, CLICK EVENTS FOR PORSCEH IMG ONLY (FOR DRAWER LIKE ANIMATION)
----------------------------------------------------------------------------------------------------------------------------
 V5:  (12/4/2020)
         - ADDED "CABIN SKETCH" FONT FAMILY
 
@@ -46,7 +39,7 @@ V3:  (12/1/2020)
         -   IMGS REZISED
         -   BOX-SHADOW HOVER EFFECT ON BOTH CAR IMGS
         -   REMOVED "DRIVE BOTH" TEXT
-
+---------------------------------------------------------------------------------------------------------------------------
     PRICING SECTION:
         -   REARRANGED BOTH <p> TAGS
         -   HOVER EFFECT:
