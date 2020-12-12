@@ -34,16 +34,6 @@ section.last {
 
 /* ___________HEADER/NAVBAR_______________ */
 
-/* .navbar-light .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-} */
-
-button.navbar-toggler {
-    /* display: hidden; */
-    border: none;
-    opacity: 0;
-}
-
 #headingGroup h1 {
     width: 100%;
 }
@@ -56,10 +46,6 @@ button.navbar-toggler {
     color: red;
 }
 
-
-/* .navbar-light .navbar-nav .nav-link {
-    color: rgba(255, 255, 255, 1);
-} */
 .logo {
     width: 9.5em;
     margin-right: 0.75em;
@@ -81,10 +67,6 @@ button.navbar-toggler {
     display: flex;
 }
 
-.mobile-media {
-    display: none;
-    /* justify-content: center; */
-}
 a.navbar-brand {
     padding: 0;
     margin: 0;
@@ -92,11 +74,9 @@ a.navbar-brand {
 
 .container {
     margin: 0;
-    padding: 0 -500px;
+    padding: 0;
     width: 100%;
     background-color: transparent;
-    overflow: auto;
-
 }
 
 .main {
@@ -114,8 +94,7 @@ a.navbar-brand {
 }
 
 .fa {
-    color: WHITE;
- 
+    color: white;
     padding-top: 6px;
 }
 
@@ -164,20 +143,18 @@ li.nav-item{
 /* ___________FOOTER_______________ */
 
 .footer {
-    font-size: 0.75em;
+    font-size: 10px;
     width: 100%;
-    /* align-items: center; */
+    align-items: center;
     justify-content: center;
-    /* padding: 0 15px; */
-    transform: translateY(6rem);
-    overflow-y: hidden;
+    padding: 0 15px;
+    transform: translateY(2rem);
 }
 
 .foot1 {
     margin: 0;
     text-align:right;
     background-color: transparent;
-    /* overflow-y: hidden; */
 }
 
 /* ___________BACKGROUNDS________________ */
@@ -219,7 +196,6 @@ li.nav-item{
     padding-bottom: none;
 }
 
-
 /* ___________CONTENT_______________ */
 
 
@@ -245,14 +221,12 @@ p.note {
     width: 100%;
     animation: fadeInBody ease-in 1.5s;
     font-weight: 700;
-    padding: 0 10px 0;
 }
 
 .home-content h1{
     font-size: 4em;
-    /* padding-bottom: 0; */
+    padding-bottom: 0;
     margin-bottom: 0;
-    padding: 0 10px 0;
 }
 .home-content p{
     font-size: 1.2em;
@@ -639,248 +613,8 @@ span.stamp-2 {
 
 /* ___________MEDIA QUERIES________________ */
 
-/* @media only screen and (max-width: 700px) {
+@media only screen and (max-width: 700px) {
     .cars {
         margin-right: 0;
     }
-} */
-
-/* @media only screen and (max-width: 800px)  {
-    li.nav-item.mobile-media {
-        display: flex;
-    }
-} */
-
-@media only screen and (max-width: 375px)  {
-
-    .navbar {
-        justify-content: center;
-    }
-
-    .footer {
-        font-size: 0.75em;
-        width: 100%;
-        /* align-items: center; */
-        justify-content: center;
-        /* padding: 0 15px; */
-        transform: translateY(3rem);
-        overflow-y: hidden;
-    }
-
-    .home-content h1 {
-        font-size: 3rem;
-    }
-    p.top {
-        margin-bottom: 0;
-    }
-    p#press {
-        padding: 0 10px 0;
-    }
-
-    .gif {
-        height: 42em;
-    }
-    .car-content {
-        font-size: 0.75em;
-
-    }
-    .car-content h1{
-        font-size: 2.5em;
-        margin-bottom: 0;
-
-    }
-
-    .car1 {
-        transform: none;
-        margin-right: 0;
-    }
-
-    .container-2 {
-        padding: 0 60px 0;
-    }
-
-    .car1-lip {
-        padding: 0 10px 0;
-        margin: 0 20px 0;
-        display: none;
-    }
-    
-    .car2 {
-        transform: none;
-        margin: 0;
-    }
-
-    .container-3 {
-        padding: 0 60px 0;
-    }
-
-    .car1-lip-2 {
-        padding: 0 10px 0;
-        margin: 0 20px 0;
-        display: none;
-
-    }
-    .car-lip-2 {
-        padding: 0
-    }
-
-    ul.i1 {
-        padding-left: 1rem;
-        margin-bottom: 0;
-    }
-    
-    ul.i2 {
-        padding-left: 1rem;
-        margin-bottom: 0;
-
-    }
-    
-    /* div.pk li {
-        align-content: center;
-        justify-content: center;
-        text-align: center;
-    } */
-   
-    div.pk {
-        /* padding: 0; */
-        padding: 0rem 0.1rem 0.5rem;
-        float: left;
-        width: auto;
-    }
-
-    .a2c {
-        padding: 0;
-        text-align: center;
-        background-color: rgba(0, 0, 0, 0.6);
-        /* border-radius: 1em; */
-        /* border: 2px solid  rgba(255, 255, 255, 0.8); */
-        border: none;
-
-    }
-/* 
-    .a2c:hover {
-        background-image: url(https://www.freeiconspng.com/thumbs/shopping-cart-icon/shopping-cart-icon-3.png);
-        background-size: cover;
-        background-color: rgba(255, 0, 0, 0.7);
-        background-position: center;
-        border-radius: 1rem;
-    } */
-
-    .ulP {
-        padding: 0 5px 0;
-        margin-bottom: 0;
-    }
-
-    h6.price {
-        padding: 0 0 1em;
-        margin: 0;
-    }
-
-    .pricing {
-        margin-bottom: 20px;
-    }
-
-    /* ___________nav________________ */
-
-    .logo {
-        width: 4.5em;
-        margin-right: 0;
-    }
-    
-    .logo-display {
-        background-image: none;
-    }
-    
-    .logo2 {
-        width: 4.5em;
-        margin-right: 0;
-    }
-    
-    .logo2-display {
-
-    }
-
-    button.navbar-toggler {
-        /* display: hidden; */
-        opacity: 1;
-        width: 100%;
-        text-align: center;
-        justify-content: center;
-        display: flex;
-    }
-
-    .toggler-show{
-        opacity: 1;
-    }
-    
-
-    button.navbar-toggler.collapsed {
-        display: hidden;
-
-    }
-    .navbar-light .navbar-toggler-icon {
-        background-image: url("20_imgs/CW.png");
-
-    }
-
-    div.main{
-        width: 100%;
-        text-align: center;
-        justify-content: center;
-    }
-
-    li.nav-item-2{
-        font-style: normal;
-        font-size: 1em;
-        padding: 0 0.75rem 0;
-        
-    }
-    li.nav-item-2 a{
-        padding: 0.25rem 0.75rem 0.25rem;
-
-    }
-
-    .mobile-media {
-        display: flex;
-        justify-content: center;
-
-        
-    }
-
-    li.mobile-media {
-        display: flex;
-        justify-content: center;
-       
-        
-    ul {
-        padding-left: 0;
-    }
-
-    p.note {
-        margin-bottom: 200px;
-        padding: 20px;
-    }
-    
-    /* .navbar-toggler {
-        border-color: red;
-        z-index: 999999999999999;
-        position: relative;
-        z-index: 99;
-    }
-    button.navbar-toggler {
-        border-color: red;
-        color: orange;
-        z-index: 999999999999999;
-        position: relative;
-    }  */
-
-    /* span.navbar-toggler-icon {
-        /* background-image: transparent; */
-        /* z-index: 999999999999999;
-        position: relative; */
-    
-    
-    
-    
 }
-
