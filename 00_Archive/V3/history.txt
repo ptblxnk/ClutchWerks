@@ -2,19 +2,6 @@
             HISTORY                  
 ============================
 
-V4:   (12/2/2020)
-        -   SCROLLBAR HIDDEN
-        
-    NAVBAR SECTION:
-        -   ADDED CUSTOM "CLUTCHWERKS" LOGO
-        -   ADDED SOCIAL MEDIA ICONS (W/WORKING CLICKABLE LINKS)
-        -   ADDED COLOR CHANGING TEXT HOVER EFFECT FOR ALL NAVBAR ITEMS
-                -> THE LOGO  REMAINS WHITE WHEN SCROLLING AND NEEDS TO CHANGE ALONG WITH TEH OTHER ITEMS 
-        -   ADDED JQUERY TO TOGGLE NAVBAR APPERANCE WHEN SCROLLING
-    
-    PRICING SECTION
-        -   ADDED COPYRIGHT IN FOOTER
----------------------------------------------------------------------------------------------------------------------------
 V3:  (12/1/2020)
     CAR SECTION:
         -   ALIGN LIST ITEMS (CAR DETAILS)
