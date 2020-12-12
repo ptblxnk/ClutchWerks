@@ -2,25 +2,17 @@
             HISTORY                  
 ============================
 
-V8: (12/6/2020)
-        - ADDED BUT REMOVED SVJ "SMOOTH-SCROLLING" ARROW BUTTONS. THE ".ROW" DIVS ARE SET TO FLEX-WRAP AND ARE CAUSING GRID ISSUES WHENAN ADDITONAL ELEMENT IS ADDED.
-        - TRANSFERRED SCRIPTS INTO A SEPARATE JS FILE "cw.js" AND LINKED BACK INTO HTML
-        - CLEANED UP HMTL/CSS FOR REDUNDANCIES, UNUSED ELEMENT/SELCTORS, AND EMPTY SPACE
-
-    CAR SECTION:
-        -   CORRECTED INFO FOR FERRARI IMAGE  
----------------------------------------------------------------------------------------------------------------------------
 V7:  (12/5/2020)
     CAR SECTION:
         -   ADDED DRAWER ANIMATION TO FERRARI IMAGE NOW.
----------------------------------------------------------------------------------------------------------------------------
+
 V6:  (12/5/2020)
     NAVBAR SECTION:
         -   NOW CUSTOM "CLUTCHWERKS" BLACK LOGO REDIRECTS TO HOME PAGE INSTEAD OF GETTING "ADDED TO CART MESSAGE"
 
     CAR SECTION:
         -   ADDED JQERY/CSS FOR MOUSEOVER, MOUSEOUT, CLICK EVENTS FOR PORSCHE IMG ONLY (FOR DRAWER LIKE ANIMATION)
----------------------------------------------------------------------------------------------------------------------------
+
 V5:  (12/4/2020)
         - ADDED "CABIN SKETCH" FONT FAMILY
 
@@ -38,10 +30,10 @@ V5:  (12/4/2020)
                 3. BACKGROUND TURNS RED
                 4. ADDED SHOPPING CART BACKGROUND IMG TO EACH OPTION
         -   MADE EACH OPTION A "CLICKABLE" THAT PROMPTS AN "ADDED TO CART" ALERT WHEN CLICKED
----------------------------------------------------------------------------------------------------------------------------
+
 V4:   (12/2/2020)
         -   SCROLLBAR HIDDEN
-
+        
     NAVBAR SECTION:
         -   ADDED CUSTOM "CLUTCHWERKS" LOGO
         -   ADDED SOCIAL MEDIA ICONS (W/WORKING CLICKABLE LINKS)
@@ -51,7 +43,7 @@ V4:   (12/2/2020)
     
     PRICING SECTION
         -   ADDED COPYRIGHT IN FOOTER
----------------------------------------------------------------------------------------------------------------------------
+
 V3:  (12/1/2020)
     CAR SECTION:
         -   ALIGN LIST ITEMS (CAR DETAILS)
@@ -65,7 +57,7 @@ V3:  (12/1/2020)
                         1. ADDS SLIGHTLY TRANSPARENT DARK BACKGROUND
                         2. BLUR EFFECT
         -   REMOVED "ADD TO CART" BUTTON
----------------------------------------------------------------------------------------------------------------------------
+
 V2: ADDED BACKGROUND GIFS & CAR DETAILS (11/30/2020)
----------------------------------------------------------------------------------------------------------------------------
+
 V1: INITIAL (11/30/2020)
