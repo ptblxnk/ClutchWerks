@@ -56,6 +56,10 @@ button.navbar-toggler {
     color: red;
 }
 
+
+/* .navbar-light .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 1);
+} */
 .logo {
     width: 9.5em;
     margin-right: 0.75em;
@@ -110,7 +114,7 @@ a.navbar-brand {
 }
 
 .fa {
-    color: rgba(0,0,0,.5);
+    color: WHITE;
  
     padding-top: 6px;
 }
@@ -165,7 +169,7 @@ li.nav-item{
     /* align-items: center; */
     justify-content: center;
     /* padding: 0 15px; */
-    transform: translateY(5rem);
+    transform: translateY(6rem);
     overflow-y: hidden;
 }
 
@@ -215,6 +219,7 @@ li.nav-item{
     padding-bottom: none;
 }
 
+
 /* ___________CONTENT_______________ */
 
 
@@ -234,7 +239,6 @@ p#press {
 
 p.note {
     margin: 0;
-    transform: translateY(1em);
 }
 
 .home-content {
@@ -338,7 +342,7 @@ a.clear {
 
 h6.price {
     font-style: italic;
-    font-size: 1em;
+    font-size: .8em;
     padding: 0;
     margin: 0;
 }
@@ -659,7 +663,7 @@ span.stamp-2 {
         /* align-items: center; */
         justify-content: center;
         /* padding: 0 15px; */
-        transform: translateY(2.8rem);
+        transform: translateY(3rem);
         overflow-y: hidden;
     }
 
@@ -741,8 +745,7 @@ span.stamp-2 {
         /* padding: 0; */
         padding: 0rem 0.1rem 0.5rem;
         float: left;
-        width: 32%;
-        /* flex-direction: column; */
+        width: auto;
     }
 
     .a2c {
@@ -771,7 +774,6 @@ span.stamp-2 {
     h6.price {
         padding: 0 0 1em;
         margin: 0;
-        font-size: 0.9em;
     }
 
     .pricing {

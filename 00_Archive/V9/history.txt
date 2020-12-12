@@ -2,15 +2,10 @@
             HISTORY                  
 ============================
 
-V10: (12/9/2020)
-        -   REVISED "PRICING" PAGE 
-                1. MOVED "S1" PRE-REQ STATEMENT TO CORRECT SECTION
-                2. ADJUSTED TICKET OPTION LAYOUT FOR MOBILE VIEW
----------------------------------------------------------------------------------------------------------------------------
 V9: (12/9/2020)
         -   ADDED MOBILE VIEW FOR IPHONE 6/7/8
         -   CORRECTED FOOTER POSOTION
-        -   REVISED NAVBAR
+        -   REVISED NAVBAR LAYOUT
 ---------------------------------------------------------------------------------------------------------------------------
 V8: (12/6/2020)
         -   ADDED BUT REMOVED SVJ "SMOOTH-SCROLLING" ARROW BUTTONS. THE ".ROW" DIVS ARE SET TO FLEX-WRAP AND ARE CAUSING GRID ISSUES WHENAN ADDITONAL ELEMENT IS ADDED.
