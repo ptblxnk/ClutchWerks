@@ -5,11 +5,6 @@
 
 body {
     background-color: transparent;
-    /* font-family: 'Shadows Into Light', cursive; */
-    /* font-family: 'Permanent Marker', cursive; */
-    font-family: 'Cabin Sketch', cursive;
-    color: rgba(255, 255, 255, 0.9);
-
 }
 
 body::-webkit-scrollbar {
@@ -28,12 +23,13 @@ section.container-fluid {
 
 section.first {
     /* margin-top: 2em; */
+    color: rgba(255, 255, 255, 0.8);
+
 }
 
 section.last {
     border: none;
 }
-
 #headingGroup h1 {
     /* color: #ffffff;
     font-size: 4rem; */
@@ -58,33 +54,7 @@ section.last {
 .logo {
     width: 9.5em;
     margin-right: 0.75em;
-    display: block;
 }
-.logo-display {
-    background-image: none;
-    display: none;
-}
-.logo2 {
-    width: 9.5em;
-    margin-right: 0.75em;
-    /* margin-right: 0.75em;
-    z-index: 2; */
-    display: none;
-}
-
-.logo2-display {
-
-    display: flex;
-}
-
-
-/* .logo:hover {
-    background-image: url("/Users/scuba/Documents/40_Projects/50_Websites/20_Custom/x_PRT4LI0/20_DOM/50_V5/20_imgs/CW.png");
-    width: 9.5em;
-    margin-right: 0.75em;
-} */
-
-
 
 a.navbar-brand {
     padding: 0;
@@ -122,9 +92,7 @@ a.navbar-brand {
     color: white;
     padding-top: 6px;
 }
-.fa-shopping-cart:hover {
-    /* display: none; */
-}
+
 a.fa-twitter {
     /* padding-right: 6px; */
 }
@@ -194,15 +162,15 @@ button.car-button {
     border: none;
 
 }
-
 button.car-button:focus {
     border: none;
     outline: none;
+
 }
 
 button.car-button:hover {
     background-color: #000000;
-    color: #ffff;
+    color: #ffff
 }
 
 /* img:hover {
@@ -228,15 +196,6 @@ button.car-button:hover {
     justify-content: center;
     padding: 0 15px 3px;
     transform: translateY(2rem);
-}
-.footer2 {
-    font-size: 10px;
-    width: 100%;
-    /* background-color: rgba(0, 0, 0, 0.4); */
-    align-items: center;
-    justify-content: center;
-    padding: 0 15px 3px;
-    transform: translateY(20rem);
 }
 
 .foot1 {
@@ -283,17 +242,8 @@ h6.price {
 .home-content {
     width: 100%;
     animation: fadeInBody ease-in 1.5s;
-    font-weight: 700;
 }
 
-.home-content h1{
-    font-size: 4em;
-    padding-bottom: 0;
-    margin-bottom: 0;
-}
-.home-content p{
-    font-size: 1.2em;
-}
 
 div.pk li {
     align-content: center;
@@ -305,44 +255,17 @@ div.pk {
     padding: 0 7rem 0;
 }
 
-/* .swap:hover {
-box-shadow: 0 0 5px red;
-border-radius: 1rem;
-filter: blur(2px);
-border-color: red;
-background-image: url(https://www.freeiconspng.com/thumbs/shopping-cart-icon/shopping-cart-icon-3.png);
-background-size: cover;
-background-color: rgba(255, 0, 0, 0.4);
-background-position: center;
-padding: 0;
-margin: 0;
-z-index: 1;
-} */
-
-a.clear {
-    color: rgba(255, 255, 255, 0.9);
-    text-decoration: none;
-}
 .a2c {
 padding: 0;
 text-align: center;
-background-color: rgba(0, 0, 0, 0.1);
-border-radius: 1rem;
-border: 2px solid  rgba(255, 255, 255, 0.8);
+
 
 }
 
 .a2c:hover {
-    background-image: url(https://www.freeiconspng.com/thumbs/shopping-cart-icon/shopping-cart-icon-3.png);
-    background-size: cover;
-    background-color: rgba(255, 0, 0, 0.7);
-    background-position: center;
-    /* background-color: rgba(0, 0, 0, 0.4); */
-    /* box-shadow: 0 0 5px white; */
+    background-color: rgba(0, 0, 0, 0.4);
     border-radius: 1rem;
-    /* filter: blur(2px); */
-    /* src: url(https://img.flaticon.com/icons/png/512/25/25619.png?size=1200x630f&pad=10,10,10,10&ext=png&bg=FFFFFFFF); */
-
+    filter: blur(2px);
     
     /* *PERFECT FOR DOM MANIPULATION---- IMPLEMENT ADD TO CART FUNCTION VIA HOVER* */
 }
@@ -389,7 +312,6 @@ border: 2px solid  rgba(255, 255, 255, 0.8);
     padding: 0;
     display: inline;
     transform: translateY(-4rem);
-    z-index: 99;
 }
 .car2 {
     margin-left: 10em;
@@ -454,7 +376,6 @@ ul.i2 {
 
 .ulP {
     padding: 0;
-    margin-bottom: 0.25rem;
 }
 
 li {
@@ -475,8 +396,6 @@ img.car1-dec {
     /* border: 1rem rgba(117, 117, 117, 0.7) solid; */
     border-radius: 0.75rem;
     box-shadow: 0 0 5px black;
-    float: center;
-    z-index: 99999;
     
 }
 
@@ -513,10 +432,6 @@ body, html {
     animation: fadeInBody ease-in 1s;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 
 @keyframes fadeInBody { 
     0% {
@@ -526,41 +441,3 @@ html {
     opacity: 1;
     }
 }
-
-.arrow {
-    width: 3em;
-}
-
-
-
-/* ___________CART________________ */
-
-
-button.cart {
-/* display: none; */
-
-}
-
-button.cart:hover {
-    display: block;
-
-}
-
-/* ___________DRAWER_______________ */
-
-/* .car1-lip {
-    width: 100%;
-    z-index: 1;
-    background-color: greenyellow;
-    text-align: right;
-    border-radius: 0.75rem;
-
-}
-
-.car1-lip:hover {
-    width: 100%;
-    z-index: 1;
-    background-color: greenyellow;
-    margin-left: 20%;
-    transition: 500ms;
-} */

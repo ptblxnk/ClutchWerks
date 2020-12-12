@@ -2,24 +2,6 @@
             HISTORY                  
 ============================
 
-V5:  (12/4/2020)
-        - ADDED "CABIN SKETCH" FONT FAMILY
-
-    NAVBAR SECTION:
-        -   ADDED CUSTOM "CLUTCHWERKS" BLACK LOGO
-        -   ADDED JQUERY TO SWITCH DISPLAY BETWEEN THE BLACK & WHITE LOGOS WHEN SCROLLING
-        -   ADDED PAGE ALERTS WHEN CLICKING NAVBAR LINKS (EXCEPTIONS: SOCIAL MEDIA ICONS)
-    
-    PRICING SECTION
-        -   ADDED WHITE BORDER TO EACH OPTION
-        -   INCREASED BACKGROUND TRANSPARENCY 
-        -   HOVER EFFECT:
-                1. REMOVED TRANSPARENT DARK BACKGROUND (HOVER ONLY)
-                2. REMOVED BLUR EFFECT
-                3. BACKGROUND TURNS RED
-                4. ADDED SHOPPING CART BACKGROUND IMG TO EACH OPTION
-        -   MADE EACH OPTION A "CLICKABLE" THAT PROMPTS AN "ADDED TO CART" ALERT WHEN CLICKED
----------------------------------------------------------------------------------------------------------------------------
 V4:   (12/2/2020)
         -   SCROLLBAR HIDDEN
         
@@ -39,7 +21,7 @@ V3:  (12/1/2020)
         -   IMGS REZISED
         -   BOX-SHADOW HOVER EFFECT ON BOTH CAR IMGS
         -   REMOVED "DRIVE BOTH" TEXT
----------------------------------------------------------------------------------------------------------------------------
+
     PRICING SECTION:
         -   REARRANGED BOTH <p> TAGS
         -   HOVER EFFECT:
@@ -49,4 +31,4 @@ V3:  (12/1/2020)
 ---------------------------------------------------------------------------------------------------------------------------
 V2: ADDED BACKGROUND GIFS & CAR DETAILS (11/30/2020)
 ---------------------------------------------------------------------------------------------------------------------------
-V1: INITIAL (11/30/2020)
+V1: INITIAL (11/30/2020) 
