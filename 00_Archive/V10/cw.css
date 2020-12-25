@@ -12,7 +12,7 @@ body {
     /* font-family: 'Shadows Into Light', cursive; */
     /* font-family: 'Permanent Marker', cursive; */
     font-family: 'Cabin Sketch', cursive;
-    color: rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 0.9);
 }
 
 body::-webkit-scrollbar {
@@ -59,6 +59,11 @@ button.navbar-toggler {
 .logo {
     width: 9.5em;
     margin-right: 0.75em;
+    display: block;
+}
+
+.logo-display {
+    background-image: none;
     display: none;
 }
 
@@ -68,18 +73,12 @@ button.navbar-toggler {
     display: none;
 }
 
-.logo-display {
-    background-image: none;
-    display: none;
-}
-
 .logo2-display {
-    display: block;
+    display: flex;
 }
 
 .mobile-media {
     display: none;
-
     /* justify-content: center; */
 }
 a.navbar-brand {
@@ -163,13 +162,10 @@ li.nav-item{
 .footer {
     font-size: 0.75em;
     width: 100%;
-    position: fixed;
-    bottom: 0;
-    right: 0;
     /* align-items: center; */
     justify-content: center;
     /* padding: 0 15px; */
-    /* transform: translateY(5rem); */
+    transform: translateY(5rem);
     overflow-y: hidden;
 }
 
@@ -177,7 +173,6 @@ li.nav-item{
     margin: 0;
     text-align:right;
     background-color: transparent;
-    /* visibility: hidden; */
     /* overflow-y: hidden; */
 }
 
@@ -200,10 +195,10 @@ li.nav-item{
     /* background-color: #fff;
     color: black; */
     background-image: url("SLECA2.gif");
-    color: rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 0.8);
     background-size: cover;
     background-repeat: none;
-    height: 41em;
+    height: 40.5em;
     
 
 }
@@ -215,8 +210,8 @@ li.nav-item{
     background-image: url("250LM.gif");
     background-size: cover;
     background-repeat: none;
-    height: 41em;
-    color: rgba(255, 255, 255, 1);
+    height: 40.5em;
+    color: rgba(255, 255, 255, 0.8);
     padding-bottom: none;
 }
 
@@ -238,11 +233,8 @@ p#press {
 }
 
 p.note {
-    /* margin: 0;
-    transform: translateY(1em); */
-    /* margin: 4em 0em 10em; */
-    /* margin-bottom: 10em; */
-    /* padding: 20px; */
+    margin: 0;
+    transform: translateY(1em);
 }
 
 .home-content {
@@ -260,7 +252,6 @@ p.note {
 }
 .home-content p{
     font-size: 1.2em;
-    padding: 0 10px 0;
 }
 
 @keyframes fadeInBody { 
@@ -279,7 +270,7 @@ p.note {
 }
 
 .car1 {
-    margin-right: 10em;   /* v10 */
+    margin-right: 10em;
     padding: 0;
     display: inline;
     transform: translateY(-4rem);
@@ -287,7 +278,7 @@ p.note {
 }
 
 .car2 {
-    margin-left: 10em; /* v10 */
+    margin-left: 10em;
     padding: 0;
     display: inline;
     transform: translateY(-4rem);
@@ -337,26 +328,25 @@ div.pk li {
 }
 
 div.pk {
-    padding: 0 1em 0; 
-    /* padding: 0 0.2rem 0;  */
+    padding: 0 7rem 0;
 }
 
 a.clear {
-    color: rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 0.9);
     text-decoration: none;
 }
 
 h6.price {
     font-style: italic;
     font-size: 1em;
-    padding: 3em 0 3em;
+    padding: 0;
     margin: 0;
 }
 
     /* ___________CART________________ */
 
     .a2c {
-        padding: 10px;
+        padding: 0;
         text-align: center;
         background-color: rgba(0, 0, 0, 0.1);
         border-radius: 1rem;
@@ -630,7 +620,6 @@ div.column5 {
     height: 100%;
     margin-left: 1px;
 }
-
 div.column6 {
     width: 9%;
     height: 100%;
@@ -646,169 +635,40 @@ span.stamp-2 {
 
 /* ___________MEDIA QUERIES________________ */
 
-/* @media only screen and (min-width: 992px) {
-    .full {
-        display: block;
-    }
-    .full-2 {
-        display: block;
-    }
-    div.column5 {
-        display: block;
-} */
-
-
-@media only screen and (max-width: 992px)  {
-    /* li.nav-item.mobile-media {
-        display: flex;
-    } */
-    .full {
-        display: none;
-    }
-    .full-2 {
-        display: none;
-    }
-    div.column3 {
-        display: none;
-    }
-    div.column4 {
-        display: none;
-    }
-    div.column5 {
-        display: none;
-    }
-    div.column6 {
-        display: none;
-    }
-    
-}
-
-@media only screen and (max-width: 925px) and (min-width: 250px) {
-    .car2 {
-        margin: 0;
-    }
-    
-    .car1 {
-        margin: 0;
-            
-    }
-    .logo2 {
-        width: 4.5em;
+/* @media only screen and (max-width: 700px) {
+    .cars {
         margin-right: 0;
     }
-}
+} */
 
-@media only screen and (max-width: 925px) and (min-width: 250px) {
-    ul.i1 {
-        padding-left: 1rem;
-        /* align-items: center; */
-        justify-content: center;
-        display: flex;
-        flex-wrap: wrap;
-        margin-bottom: 0;
-    }
-
-    ul.i2 {
-        padding-left: 1rem;
-        justify-content: center;
-        display: flex;
-        flex-wrap: wrap;
-        margin-bottom: 0;
-    }
-
-    .center {
-        justify-content: center;
-        align-content: center;
-        text-align: left;
-        display: flex;
-        margin-top: 0.5em;
-        flex-wrap: wrap;
-    }
-
-    .car2 {
-        margin-left: 3em;
-        margin-right: auto;
-        }
-    
-    .car1 {
-        margin-left: auto;
-        margin-right: 3em; 
-    }
-
-    button.navbar-toggler {
-        /* display: hidden; */
-        opacity: 1;
-        width: 100%;
-        text-align: center;
-        justify-content: center;
+/* @media only screen and (max-width: 800px)  {
+    li.nav-item.mobile-media {
         display: flex;
     }
+} */
 
-    
-    
-}
-
-@media only screen and (max-width: 575px)  {
-    .car2 {
-        margin: 0;
-        padding: 0 10px 0;
-        }
-
-    .car1 {
-        margin: 0;
-        padding: 0 10px 0;  
-    }
-
-    p#press {
-        padding: 0 10px 0;  
-    }
-
-    .home-content p {
-        font-size: 1em;
-    }
-    
-    li.mobile-media {
-        display: none;
-        /* justify-content: center; */
-    }
-
-}
-@media only screen and (max-width: 600px)  {
-
-    div.a2c h4{
-        font-size: 1.3em;
-    }
-}
-@media only screen and (min-width: 200px) and (max-width: 380px) {
-    .home-content h1 {
-        font-size: 2em;
-    }
-}
-@media only screen and (max-width: 475px) and (min-width: 380px) {
-    .home-content h1 {
-        font-size: 3rem;
-    }
- 
-    
-}
-
-@media only screen and (max-width: 380px)  {
+@media only screen and (max-width: 375px)  {
 
     .navbar {
         justify-content: center;
     }
 
-
-
-    /* .home-content h1 {
-        font-size: 2.7rem;
-    } */
-
-    p.top {
-        margin-bottom: 0;
-        padding: 0 10px 0;
+    .footer {
+        font-size: 0.75em;
+        width: 100%;
+        /* align-items: center; */
+        justify-content: center;
+        /* padding: 0 15px; */
+        transform: translateY(2.8rem);
+        overflow-y: hidden;
     }
 
+    .home-content h1 {
+        font-size: 3rem;
+    }
+    p.top {
+        margin-bottom: 0;
+    }
     p#press {
         padding: 0 10px 0;
     }
@@ -816,34 +676,23 @@ span.stamp-2 {
     .gif {
         height: 42em;
     }
-
     .car-content {
         font-size: 0.75em;
 
     }
-
     .car-content h1{
         font-size: 2.5em;
         margin-bottom: 0;
-    }
 
-   .logo2 {
-    width: 4.5em;
-    margin-right: 0;
     }
-    
 
     .car1 {
         transform: none;
-        margin: 0;
-
-        /* margin-left: auto;
-        margin-right: 0.1em; */
-        /* margin-right: 0;
+        margin-right: 0;
     }
 
     .container-2 {
-        /* padding: 0 60px 0;*/  /* v10 */
+        padding: 0 60px 0;
     }
 
     .car1-lip {
@@ -855,13 +704,10 @@ span.stamp-2 {
     .car2 {
         transform: none;
         margin: 0;
-
-        /* margin-left: 0.1em;
-        margin-right: auto; */
     }
 
     .container-3 {
-        /* padding: 0 60px 0;*/  /* v10 */
+        padding: 0 60px 0;
     }
 
     .car1-lip-2 {
@@ -870,7 +716,6 @@ span.stamp-2 {
         display: none;
 
     }
-
     .car-lip-2 {
         padding: 0
     }
@@ -901,17 +746,14 @@ span.stamp-2 {
     }
 
     .a2c {
-        padding: 5px;
+        padding: 0;
         text-align: center;
-        background-color: rgba(0, 0, 0, 0.1);
+        background-color: rgba(0, 0, 0, 0.6);
         /* border-radius: 1em; */
         /* border: 2px solid  rgba(255, 255, 255, 0.8); */
-    }
-    
-    
+        border: none;
 
     }
-    
 /* 
     .a2c:hover {
         background-image: url(https://www.freeiconspng.com/thumbs/shopping-cart-icon/shopping-cart-icon-3.png);
@@ -933,9 +775,7 @@ span.stamp-2 {
     }
 
     .pricing {
-        margin-top: 0.5em;
-        margin-bottom: 1.5em;
-
+        margin-bottom: 20px;
     }
 
     /* ___________nav________________ */
@@ -949,10 +789,10 @@ span.stamp-2 {
         background-image: none;
     }
     
-    /* .logo2 {
+    .logo2 {
         width: 4.5em;
         margin-right: 0;
-    } */
+    }
     
     .logo2-display {
 
@@ -971,9 +811,9 @@ span.stamp-2 {
         opacity: 1;
     }
     
-/* 
+
     button.navbar-toggler.collapsed {
-        display: hidden; */
+        display: hidden;
 
     }
     .navbar-light .navbar-toggler-icon {
@@ -981,42 +821,43 @@ span.stamp-2 {
 
     }
 
-    div.main {
+    div.main{
         width: 100%;
         text-align: center;
         justify-content: center;
-    }
-
-    .nav-text-color {
-        color: white;
     }
 
     li.nav-item-2{
         font-style: normal;
         font-size: 1em;
         padding: 0 0.75rem 0;
+        
     }
-
-    li.nav-item-2 a {
+    li.nav-item-2 a{
         padding: 0.25rem 0.75rem 0.25rem;
 
     }
 
+    .mobile-media {
+        display: flex;
+        justify-content: center;
+
+        
+    }
 
     li.mobile-media {
         display: flex;
-        visibility: hidden;
         justify-content: center;
-    }
+       
         
     ul {
         padding-left: 0;
     }
 
-    /* p.note {
+    p.note {
         margin-bottom: 200px;
         padding: 20px;
-    } */
+    }
     
     /* .navbar-toggler {
         border-color: red;
@@ -1036,20 +877,8 @@ span.stamp-2 {
         /* z-index: 999999999999999;
         position: relative; */
     
- 
-}
-
-@media only screen and (max-width: 475px) and (min-width: 380px) {
-    .home-content h1 {
-        font-size: 3rem;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    li.mobile-media {
-        display: flex;
-        justify-content: center;
-        visibility: visible;
-    }
+    
+    
+    
 }
 

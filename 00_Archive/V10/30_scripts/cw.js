@@ -7,24 +7,15 @@ $(function(){
     var $social = $(".fa");
     var $nBrand = $(".nav-link");
     var $logo = $(".logo");
-    var $logo2 = $(".logo2");
-    var $navitem = $(".nav-link");
-    var $footer = $(".foot1");
+  
     // var $burger = $(".navbar-light");
     
 
     $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
     $social.toggleClass("logo-scroll", $(this).scrollTop() > $nav.height());
     $nBrand.toggleClass("logo-scroll", $(this).scrollTop() > $nav.height());
-    // $logo.toggleClass("logo-display", $(this).scrollTop() > $nav.height());
+    $logo.toggleClass("logo-display", $(this).scrollTop() > $nav.height());
     $logo2.toggleClass("logo2-display", $(this).scrollTop() > $nav.height());         
-  
-    // $navitem.toggleClass("nav-text-color", $(this).scrollTop() > $nav.height());         
-    // $(logo,$logo2).toggleClass("logo-display logo2-display", $(this).scrollTop() > $nav.height());        
-    // $logo.removeClass("logo-display", $(this).scrollTop() < $nav.height());
-    // $logo.removeClass("logo-display", $(this).scrollTop() < $nav.height());
-    // $logo.addClass("logo-display", $(this).scrollTop() > $nav.height());
-    // $logo2.removeClass("logo2-display", $(this).scrollTop() > $nav.height());         
     // $burger.removeClass("navbar-light", $(this).scrollTop() > $nav.height());
     });
 });

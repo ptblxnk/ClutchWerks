@@ -2,12 +2,6 @@
             HISTORY                  
 ============================
 
-
-V11: (12/24/2020)
-        -   IMPROVED RESPONSIVE DESIGN FOR ALL SCREEN WIDTHS
-        -   CHANGED FOOTER POSITION
-        -   FIX NAVBAR DISPLAY FOR MOBILE
----------------------------------------------------------------------------------------------------------------------------
 V10: (12/9/2020)
         -   REVISED "PRICING" PAGE 
                 1. MOVED "S1" PRE-REQ STATEMENT TO CORRECT SECTION
