@@ -216,7 +216,7 @@ li.nav-item{
     background-image: url("250LM.gif");
     background-size: cover;
     background-repeat: none;
-    height: 41em;
+    height: 100vh;
     color: rgba(255, 255, 255, 1);
     padding-bottom: none;
 }
@@ -269,7 +269,7 @@ p.note {
         opacity: 0;
     }
     100% {
-    opacity: 1;
+        opacity: 1;
     }
 }
 
@@ -760,21 +760,19 @@ span.stamp-2 {
         font-size: 1.3em;
     }
 }
-@media only screen and (min-width: 200px) and (max-width: 380px) {
-    .home-content h1 {
-        font-size: 2em;
-    }
-}
+
 @media only screen and (max-width: 475px) and (min-width: 380px) {
     .home-content h1 {
         font-size: 3rem;
     }
- 
-    
+
 }
 
 @media only screen and (max-width: 414px)  {
 
+    .gif3 {
+        padding: 0 15px;
+    }
     .navbar {
         justify-content: center;
     }
