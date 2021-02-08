@@ -190,7 +190,8 @@ li.nav-item{
     background-image: url("LS_1.gif");
     background-size: cover;
     background-repeat: none;
-    height: 43em;
+    height: 100vh;
+    /* height: 43em; */
 }
 
 .gif2 {
@@ -646,16 +647,6 @@ span.stamp-2 {
 
 /* ___________MEDIA QUERIES________________ */
 
-/* @media only screen and (min-width: 992px) {
-    .full {
-        display: block;
-    }
-    .full-2 {
-        display: block;
-    }
-    div.column5 {
-        display: block;
-} */
 
 
 @media only screen and (max-width: 992px)  {
@@ -683,20 +674,6 @@ span.stamp-2 {
     
 }
 
-@media only screen and (max-width: 925px) and (min-width: 250px) {
-    .car2 {
-        margin: 0;
-    }
-    
-    .car1 {
-        margin: 0;
-            
-    }
-    .logo2 {
-        width: 4.5em;
-        margin-right: 0;
-    }
-}
 
 @media only screen and (max-width: 925px) and (min-width: 250px) {
     ul.i1 {
@@ -742,6 +719,10 @@ span.stamp-2 {
         text-align: center;
         justify-content: center;
         display: flex;
+    }
+    .logo2 {
+        width: 4.5em;
+        margin-right: 0;
     }
 
     
@@ -792,18 +773,11 @@ span.stamp-2 {
     
 }
 
-@media only screen and (max-width: 380px)  {
+@media only screen and (max-width: 414px)  {
 
     .navbar {
         justify-content: center;
     }
-
-
-
-    /* .home-content h1 {
-        font-size: 2.7rem;
-    } */
-
     p.top {
         margin-bottom: 0;
         padding: 0 10px 0;
@@ -813,9 +787,6 @@ span.stamp-2 {
         padding: 0 10px 0;
     }
 
-    .gif {
-        height: 42em;
-    }
 
     .car-content {
         font-size: 0.75em;
@@ -834,8 +805,9 @@ span.stamp-2 {
     
 
     .car1 {
-        transform: none;
+        /* transform: none; */
         margin: 0;
+        padding: 0 5px;
 
         /* margin-left: auto;
         margin-right: 0.1em; */
@@ -853,8 +825,9 @@ span.stamp-2 {
     }
     
     .car2 {
-        transform: none;
+        /* transform: none; */
         margin: 0;
+        padding: 0 5px;
 
         /* margin-left: 0.1em;
         margin-right: auto; */
